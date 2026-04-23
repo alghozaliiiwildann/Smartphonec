@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>smartHome-wil</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
@@ -124,7 +124,8 @@
                 <h1 class="text-lg md:text-3xl font-semibold text-[#000F37]">Make Your Devices <br /> Work for You</h1>
                 <p class="text-xs md:text-base font-normal text-[#575757]">From lights to air conditioners, the app
                     <br /> transforms ordinary appliances into smart ones <br /> — programmable, responsive, and more
-                    <br /> energy-efficient.</p>
+                    <br /> energy-efficient.
+                </p>
                 <button
                     class="bg-transparent transition-colors ease-in hover:bg-[#1E5AFA] font-normal hover:cursor-pointer hover:text-white text-xs md:text-base py-2 px-4 border border-black hover:border-transparent rounded">Learn
                     More</button>
@@ -141,7 +142,8 @@
                 <h1 class="text-lg md:text-3xl font-semibold text-[#000F37]">Tap. Control. Relax.</h1>
                 <p class="text-xs md:text-base font-normal text-[#575757]">Turn off forgotten devices, schedule your
                     <br /> lighting, or monitor active appliances in each <br /> room. Stay in control whether you're
-                    home or <br /> away.</p>
+                    home or <br /> away.
+                </p>
                 <button
                     class="bg-transparent transition-colors ease-in hover:bg-[#1E5AFA] font-normal hover:cursor-pointer hover:text-white text-xs md:text-base py-2 px-4 border border-black hover:border-transparent rounded">Learn
                     More</button>
@@ -149,7 +151,7 @@
         </div>
     </section>
 
-    <section class="flex flex-col items-center bg-white h-screen">
+    <section class="flex flex-col items-center bg-white h-min-screen py-20">
         <h1 id="Testimonials" class="text-3xl md:text-6xl font-bold text-[#313131] pb-10 md:pb-20">Testimonials</h1>
         <div class="flex flex-col md:flex-row flex-wrap w-[90%] md:w-[85%]  lg:w-[70%] gap-6 justify-center">
             <div
@@ -229,9 +231,52 @@
             FAQ'S
         </h1>
         <div class="flex flex-col w-[90%] md:w-[40%] gap-5 px-4 md:px-0">
-            <div class="faq-items bg-[#FAFAFA] border-[#E7EBEE] rounded-sm hover:cursor-pointer w-full overflow-hidden transition-all duration-300" onclick="toggleFaq(this)">
+            <div class="faq-items bg-[#FAFAFA] border-[#E7EBEE] rounded-sm hover:cursor-pointer w-full overflow-hidden transition-all duration-300"
+                onclick="toggleFaq(this)">
                 <div class="p-6 flex flex-row items-center gap-4 font-medium text-[#313131]">
-                    <img src="/assets/ples.png" class="w-5 transition-transform duration-300"/>
+                    <img src="/assets/ples.png" class="w-5 transition-transform duration-300" />
+                    <h1>
+                        Do I need special devices to use the app
+                    </h1>
+                </div>
+                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="ml-[36px] px-6 pb-6 text-[#575757] font-normal">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-items bg-[#FAFAFA] border-[#E7EBEE] rounded-sm hover:cursor-pointer w-full overflow-hidden transition-all duration-300"
+                onclick="toggleFaq(this)">
+                <div class="p-6 flex flex-row items-center gap-4 font-medium text-[#313131]">
+                    <img src="/assets/min.svg" class="w-5 transition-transform duration-300" />
+                    <h1>
+                        Do I need special devices to use the app
+                    </h1>
+                </div>
+                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="ml-[36px] px-6 pb-6 text-[#575757] font-normal">
+                        <p>Absolutely! As long as you have internet, full <br /> control is in your hands.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-items bg-[#FAFAFA] border-[#E7EBEE] rounded-sm hover:cursor-pointer w-full overflow-hidden transition-all duration-300"
+                onclick="toggleFaq(this)">
+                <div class="p-6 flex flex-row items-center gap-4 font-medium text-[#313131]">
+                    <img src="/assets/ples.png" class="w-5 transition-transform duration-300" />
+                    <h1>
+                        Do I need special devices to use the app
+                    </h1>
+                </div>
+                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="ml-[36px] px-6 pb-6 text-[#575757] font-normal">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-items bg-[#FAFAFA] border-[#E7EBEE] rounded-sm hover:cursor-pointer w-full overflow-hidden transition-all duration-300"
+                onclick="toggleFaq(this)">
+                <div class="p-6 flex flex-row items-center gap-4 font-medium text-[#313131]">
+                    <img src="/assets/ples.png" class="w-5 transition-transform duration-300" />
                     <h1>
                         Do I need special devices to use the app
                     </h1>
@@ -243,8 +288,112 @@
                 </div>
             </div>
         </div>
-        
     </section>
+
+    <section class="flex flex-col items-center bg-white h-screen">
+        <div class="flex flex-col-reverse items-center md:flex-row">
+            <div class="w-[70%] flex flex-col justify-center gap-7 items-start">
+                <h1 class="text-lg md:text-5xl font-bold text-[#313131]">
+                    Ready to Smarten <br /> Up Your Home?
+                </h1>
+                <p class="text-xs md:text-base font-normal text-[#575757]">
+                    Download now and experience full control at your fingertips.
+                </p>
+                <div class="flex gap-4 md:gap-10 w-70 md:w-100">
+                    <a href="#">
+                        <img src="/assets/app.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="/assets/gg.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="w-1/2 ">
+                <img src="/assets/hp2.png" class="w-140">
+            </div>
+        </div>
+    </section>
+
+    <section class="h-fit flex flex-col items-center bg-white">
+        <div
+            class="bg-[#1E5AFA] rounded-lg w-[97%] md:w-[70%] p-8 md:p-15 flex flex-col items-center justify-between md:flex-row between gap-8 md:gap-0">
+            <div
+                class="flex flex-col  items-center md:items-start gap-3 md:gap-5 font-semibold text-white text-center md:text-left">
+                <h1 class="text-[25px] md:text-[48px] leading-tight">
+                    Subscribe to get updated
+                </h1>
+                <p class="font-light text-[11px] md:text-base">
+                    Get tips, new feature alerts, and updates. <br class="hidden md:block" /> Straight to your inbox.
+                </p>
+            </div>
+            <button
+                class="w-full md:w-auto h-fit whitespace-nowrap text-white hover:text-black transition-color ease-in hover:bg-white hover:cursor-pointer border border-white px-9 py-3 rounded">
+                Get Started
+            </button>
+        </div>
+    </section>
+
+    <footer class="flex flex-col items-center bg-white pt-16">
+        <div class="w-[90%] md:w-[70%] grid grid-cols-1 md:grid-cols-3 gap-16 text-[#575757] pb-18">
+            <div class="flex flex-col gap-4">
+                <div class="font-bold text-2xl flex items-center gap-2">
+                    <img src="/assets/Logo (2).svg" alt="">
+                </div>
+                <p class="text-[#575757] text-sm w-70">
+                    Monitor energy use, automate routines, and manage your home appliances effortlessly, all from one
+                    sleek, simple app.
+                </p>
+                <div class="flex flex-row gap-2 mt-2 ">
+                    <input type="email" placeholder="Email Address"
+                        class="w-full px-4 py-2 bg-[#FAFAFA] border border-[#E7EBEE] rounded-sm focus:outline-none " />
+                    <button
+                        class=" text-[#011037] border border-[#011037] hover:bg-[#1E5AFA] hover:text-white px-4 py-2 rounded-sm hover:cursor-pointer transition-colors ease-in">
+                        Register
+                    </button>
+                </div>
+            </div>
+            <div class="md:col-span-2 flex flex-row md:grid-cols-2 md:grid w-full justify-between md:justify-end gap-4">
+                <div class="flex flex-col md:items-center w-1/2 md:w-auto gap-4">
+                    <div class="flex flex-col gap-4 ">
+                        <h3 class="font-semibold text-lg text-black">ABOUT</h3>
+                        <ul class="flex flex-col gap-2 text-[#575757] text-sm ">
+                            <li>
+                                <a href="#" class="hover:text-[#1E5AFA]">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#1E5AFA]">Partnerships</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#1E5AFA]">Customer Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col items-end w-1/2 md:w-auto gap-4">
+                    <div class="flex flex-col gap-4 ">
+                        <h3 class="font-semibold text-lg text-black">FOLLOW US</h3>
+                        <ul class="flex flex-col gap-2 text-[#575757] text-sm ">
+                            <li>
+                                <a href="#" class="hover:text-[#1E5AFA]">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#1E5AFA]">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#1E5AFA]">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-[#1E5AFA]">Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full text-center bg-[#000F37] text-xs text-white py-6">
+            Copyright © 2025 all rights reserved Smart Home
+        </div>
+    </footer>
 
 </body>
 <script src="script.js"></script>
